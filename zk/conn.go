@@ -37,7 +37,7 @@ var DefaultLogger Logger = defaultLogger{}
 const (
 	bufferSize      = 1536 * 1024
 	eventChanSize   = 6
-	sendChanSize    = 16
+	sendChanSize    = 256
 	protectedPrefix = "_c_"
 )
 
